@@ -1,0 +1,26 @@
+spring.profiles.active: local
+
+iot:
+  id:
+  org:
+  apiKey:
+  apiToken:
+
+quartz:
+  instanceId: auto
+  threadCount: 20
+  threadPriority: 5
+
+scheduler:
+  autoInitialize: true
+
+cloudant:
+  username:
+  password:
+  url:
+  timeout:
+  autoInitialize:
+
+---
+spring:
+  profiles: local
